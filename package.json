@@ -1,0 +1,17 @@
+{
+  "name": "agritech",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AgriTech - Empowering Farmers Through Digital Technology",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm start --prefix client",
+    "start:server": "npm start --prefix server",
+    "seed": "npm run seed --prefix server",
+    "build": "npm run build --prefix client"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "type": "commonjs"
+}
